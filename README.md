@@ -5,8 +5,9 @@
 After unzipping the file containing the project. 
 Ensure that the Tree.txt file exists in the LibraryGamesApp\LibraryGamesApp\bin\Debug.
 If it does not exist then copy + paste the Tree.txt file included with the project into the debug folder. 
+You might have to build the project first to create the bin folder.
 
-Open Visual Studio > Build Solution > Start.  
+Open Visual Studio > Start.  
 To start playing a game click start and then choose the game you would like to play. 
 You can select "How to Play" button for the rules of the game.
 The application itself has details on how to play each game, so I will not be including them here. 
