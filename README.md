@@ -1,6 +1,7 @@
 # LibraryGamesApp
 
 --------How to Run--------
+
 After unzipping the file containing the project. 
 Ensure that the Tree.txt file exists in the LibraryGamesApp\LibraryGamesApp\bin\Debug.
 If it does not exist then copy + paste the Tree.txt file included with the project into the debug folder. 
@@ -11,6 +12,7 @@ You can select "How to Play" button for the rules of the game.
 The application itself has details on how to play each game, so I will not be including them here. 
 
 --------Updates--------
+
 For part 1, I fixed the comparison logic by saving the generated call numbers to a sorted Dictionary, and then using the dictionary for comparison against my list. 
 
 For part 2, I added sound effects for completing a level.
@@ -24,7 +26,9 @@ Also there might be slight discrepencies between the word doc and text file cont
 
 Github:
 https://github.com/TwistyTurns/LibraryGamesApp.git
+
 --------Microsft Visual Studio Information---------
+
 Microsoft Visual Studio Community 2022
 Version 17.7.6
 VisualStudio.17.Release/17.7.6+34221.43
