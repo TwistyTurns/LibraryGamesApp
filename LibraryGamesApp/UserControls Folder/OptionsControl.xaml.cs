@@ -83,5 +83,14 @@ namespace LibraryGamesApp.UserControls_Folder
                 mainWindow.contentControl.Content = findCalls;
             }
         }
+
+        private void btnExplain3_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("You will be given the description of a 3rd level call number at the top of the screen." +
+                "\nBelow that you will be given 4 options each containing a call number and its description. " +
+                "\nUsing your knowledge determine under which call numbers the provided 3rd level description is found, " +
+                "by selecting the 1st level call number and 2nd level call number." +
+                "\nFor the final question you will only given the call number, identify which call number matches the given description.", "Rules: Finding Calls");
+        }
     }
 }

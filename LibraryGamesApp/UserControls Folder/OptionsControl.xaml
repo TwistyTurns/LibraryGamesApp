@@ -48,11 +48,11 @@
                     <RowDefinition Height ="1*"/>
                 </Grid.RowDefinitions>
 
-                <Image Grid.Row="0" Source="/Resources/QuestionMar.png" Stretch="Fill" MaxHeight="210" MaxWidth="210" />
+                <Image Grid.Row="0" Source="/Resources/wizardTower.png" Stretch="Fill" MaxHeight="210" MaxWidth="210" />
 
                 <Button x:Name="btnGame3" Grid.Row="1" Content="Finding Call Numbers" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnGame3_Click" />
 
-                <Button x:Name="btnExplain3" Grid.Row="2" Content="How To Play?" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                <Button x:Name="btnExplain3" Grid.Row="2" Content="How To Play?" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnExplain3_Click"  />
             </Grid>
         </Border>
 
